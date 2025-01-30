@@ -21,13 +21,13 @@ A modern React application to display and manage user information with a clean, 
 1. Clone and install dependencies:
 ```bash
 git clone [repository-url]
-cd user-management-dashboard
+cd User-Directory-Redux
 npm install
 ```
 
 2. Start the application:
 ```bash
-npm start
+npm run dev
 ```
 
 Visit `http://localhost:3000` to view the app.
@@ -39,12 +39,6 @@ src/
 ├── redux/              # Redux store and slices
 └── App.js              # Main component
 ```
-
-## Available Routes
-- `/` - Home page with user list
-- `/user/:id` - User details page
-
-## Component Details
 
 ### UserInfo Component
 Displays user details including:
